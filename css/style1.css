@@ -1,0 +1,971 @@
+/* Bosh sahifa */
+
+.html {
+    height: 100%;
+}
+
+.body {
+    height: 2000px;
+}
+
+
+
+.bosh__sahifa {
+    height: 50px;
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.logo {
+    position: relative;
+    margin-left: 350px;
+    background-color: white;
+}
+
+.orqafon {
+    position: relative;
+    top: 10px;
+}
+
+.orqafon img {
+    width: 135%;
+}
+
+.quti1 {
+    position: relative;
+    background-color: white;
+    padding-left: 20px;
+    width: 600px;
+    height: 400px;
+    font-size: 23px;
+    margin-top: -900px;
+    margin-left: 250px; 
+    z-index: 3;
+    animation-name: example;
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+@keyframes example {
+    0%   {background-color:white; opacity: 0; left:200px; top:-200px;}
+    100%  {background-color:white; left:200px; top:90px;}
+    }
+
+.buttom {
+    width: 300px;
+    height: 70px;
+    font-size: 25px;
+    color: #2f2f2f;
+}
+
+.buttom:hover {
+    background-color: black;
+    color: white;
+}
+
+.quti2 {
+    position: relative;
+    background-color: #ffca01;
+    width: 600px;
+    height: 300px;
+    top: -160px;
+    left: 390px;
+    z-index: 1;
+    animation-name: examples;
+    animation-duration: 2.5s;
+}
+
+@keyframes examples { 
+    0%  {background-color:#ffca01; opacity: 0; left:700px; top:-160px;}
+    100%  {background-color:#ffca01; left:390px; top:-160px;}
+}   
+
+.quti__bir {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    top: 120px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #ffca01;
+}
+
+.text__quti-bir {
+    position: relative;
+    top: 110px;
+}
+
+.quti1__h1 {
+    position: relative;
+}
+
+.quti1__h1:hover {
+    color: white;
+    font-size: 70px;
+}
+
+.quti1__p {
+    position: relative;
+}
+
+.quti1__p:hover {
+    color: white;
+    font-size: 35px;
+}
+
+.buttom1 {
+    position: relative;
+    width: 300px;
+    background-color: black;
+    height: 60px;
+    font-size: 20px;
+    color: white;
+}
+
+.buttom1:hover {
+    background-color: white;
+    color: black;
+}
+
+.image__quti img {
+    position: relative;
+    width: 80%;
+    left: 0px;
+    top: -380px;
+}
+
+.quti__ikki {
+    position: relative;
+    width: 100%;
+    height: 1600px;
+    background-color: #f2f2f2;
+}
+
+.text__quti-ikki {
+    position: relative;
+    text-align: center;
+    top: -800px;
+    font-size: 27px;
+}
+
+.quti2__h1 {
+    position: relative;
+}
+
+.quti2__h1:hover {
+    font-size: 65px;
+    color: white;
+}
+
+.ichki__quti1 {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    top: -770px;
+    left: 350px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.ichki__quti1:hover {
+    background-color: #ffca01;
+    color: white;
+}
+
+.ichki__quti1 h1 {
+    padding-left: 20px;
+    font-size: 25px
+}
+
+.ichki__quti1 p {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.ichki__quti1 a {
+    padding-left: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.ichki__quti1 a:hover {
+    color: #ffca01;
+}
+
+.iq__rasm img {
+    margin-top: -10px;
+    margin-left: -20px;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #ffca01;
+    transition: all 0.4s ease 0s;
+}
+
+.iq__rasm img{
+    width: 50px;
+    height: 50px;
+    background-color:#ffca01 ;
+}
+
+.iq__rasm img:hover {
+    animation-name: raxmatillo;
+    animation-duration: 4s;
+}
+
+@keyframes raxmatillo   {
+    0%   {width:1px; height:1px;}
+    100% {width:50px; height:50px;}
+}
+
+
+.iq__rasm {
+    margin-top: 40px;
+    margin-left: 50px;
+    
+}
+
+.iq__rasm img:hover{
+    transform: rotate(360deg);
+}
+
+.ichki__quti2 {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    top: -1170px;
+    left: 650px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.ichki__quti2:hover {
+    background-color: #ffca01;
+    color: white;
+}
+
+.ichki__quti2 h1 {
+    padding-left: 20px;
+    font-size: 25px
+}
+
+.ichki__quti2 p {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.ichki__quti2 a {
+    padding-left: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.ichki__quti2 a:hover {
+    color: #ffca01;
+}
+
+.ichki__quti3 {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    top: -1570px;
+    left: 950px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.ichki__quti3:hover {
+    background-color: #ffca01;
+    color: white;
+}
+
+.ichki__quti3 h1 {
+    padding-left: 20px;
+    font-size: 25px
+}
+
+.ichki__quti3 p {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.ichki__quti3 a {
+    padding-left: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.ichki__quti3 a:hover {
+    color: #ffca01;
+}
+
+.ichki__quti4 {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    top: -1970px;
+    left: 1250px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.ichki__quti4:hover {
+    background-color: #ffca01;
+    color: white;
+}
+
+.ichki__quti4 h1 {
+    padding-left: 20px;
+    font-size: 25px
+}
+
+.ichki__quti4 p {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.ichki__quti4 a {
+    padding-left: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.ichki__quti4 a:hover {
+    color: #ffca01;
+}
+
+.ichki__quti5 {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    top: -1955px;
+    left: 350px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.ichki__quti5:hover {
+    background-color: #ffca01;
+    color: white;
+}
+
+.ichki__quti5 h1 {
+    padding-left: 20px;
+    font-size: 25px
+}
+
+.ichki__quti5 p {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.ichki__quti5 a {
+    padding-left: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.ichki__quti5 a:hover {
+    color: #ffca01;
+}
+
+.ichki__quti6 {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    top: -2355px;
+    left: 650px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.ichki__quti6:hover {
+    background-color: #ffca01;
+    color: white;
+}
+
+.ichki__quti6 h1 {
+    padding-left: 20px;
+    font-size: 25px
+}
+
+.ichki__quti6 p {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.ichki__quti6 a {
+    padding-left: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.ichki__quti6 a:hover {
+    color: #ffca01;
+}
+
+.ichki__quti7 {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    top: -2755px;
+    left: 950px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.ichki__quti7:hover {
+    background-color: #ffca01;
+    color: white;
+}
+
+.ichki__quti7 h1 {
+    padding-left: 20px;
+    font-size: 25px
+}
+
+.ichki__quti7 p {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.ichki__quti7 a {
+    padding-left: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.ichki__quti7 a:hover {
+    color: #ffca01;
+}
+
+.ichki__quti8 {
+    position: relative;
+    width: 280px;
+    height: 400px;
+    top: -3155px;
+    left: 1250px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.ichki__quti8:hover {
+    background-color: #ffca01;
+    color: white;
+}
+
+.ichki__quti8 h1 {
+    padding-left: 20px;
+    font-size: 25px
+}
+
+.ichki__quti8 p {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.ichki__quti8 a {
+    padding-left: 20px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.ichki__quti8 a:hover {
+    color: #ffca01;
+}
+
+.rasmp {
+    position: relative;
+    display: inline-block;
+    top: -3050px;
+    left: 350px;
+    
+}
+
+.rasmp img {
+    width: 600px;
+    height: 700px;
+    opacity: 0.7;
+}
+
+.rasmp img:hover {
+    opacity: 2;
+}
+
+.rasmp__text {
+    position: relative;
+    border: 1px solid white;
+    width: 550px;
+    height: 578px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 100px;
+    top: -3754px;
+    left: 950px;
+    background-color: white;
+}
+
+.rasmp__text:hover {
+    color: white;
+    background-color: black;
+}
+
+.rasmp__text h1 {
+    position: relative;
+    font-size: 35px;
+    padding: 10px;
+    top: -30px;
+}
+
+.rasmp__text p {
+    position: relative;
+    font-size: 22px;
+    padding: 5px;
+    top: -20px;
+}
+
+.ikonka1 {
+    position: relative;
+    top: -20px;
+}
+
+.ikonka2 {
+    position: relative;
+    top: -30px;
+}
+
+
+.orqafon3 img {
+    width: 103%;
+    height: 600px;
+    color: linear-gradient(#2f2f2f);
+}
+
+.orqafon3__text {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    top: -606px;
+    padding-left: 370px;
+    padding-top: 100px;
+    font-size: 28px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.377);
+}
+
+.orqafon3__text:hover {
+    color: #ffca01;
+}
+
+.orqafon3__text h4 {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.orqafon3__text p {
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+.orqafon3__text a {
+    color: white;
+}
+
+.ot__button {
+    width: 300px;
+    height: 70px;
+    border: 2px solid white;
+    background-color: #2f2f2f00;
+    color: white;
+    font-size: 20px;
+}
+
+.ot__button:hover {
+    background-color: black;
+    color: white;
+}
+
+.ot__button:hover {
+    background-color: white;
+    color: black;
+}
+
+.photoo img {
+    position: relative;
+    top: -602px;
+    width: 103%;
+    height: 1100px;
+}
+
+.photoo__text {
+    position: relative;
+    top: -1650px;
+    left: 370px;
+    height: 915px;
+}
+
+.photoo__text h1 {
+    position: relative;
+    font-size: 65px;
+    top: -55px;
+    top: -100px;
+}
+
+.photoo__text h1:hover {
+    font-size: 70px;
+    background-color: aqua;
+}
+
+.photoo__text h6 {
+    position: relative;
+    font-size: 30px;
+    top: -15px;
+    color: #2f2f2f;
+    top: -100px;
+}
+
+.photoo__text h6:hover {
+    background-color: #ffca01;
+}
+
+.texto01 {
+    position: relative;
+    width: 600px;
+    top: -150px;
+    display: inline-block;
+}
+
+.texto1 {
+    font-size: 30px;
+    width: 600px;
+}
+
+.texto1:hover {
+    background-color: #ffca01;
+}
+
+.texto1 p {
+    position: relative;
+    font-size: 20px;
+    top: -12px;
+    color: #2f2f2f;
+}
+
+.texto2 {
+    font-size: 30px;
+    width: 600px;
+}
+
+.texto2:hover {
+    background-color: #ffca01;
+}
+
+.texto2 p {
+    position: relative;
+    font-size: 20px;
+    top: -12px;
+    color: #2f2f2f;
+}
+
+.texto3 {
+    font-size: 30px;
+    width: 600px;
+}
+
+.texto3:hover {
+    background-color: #ffca01;
+}
+
+.texto3 p {
+    position: relative;
+    font-size: 20px;
+    top: -12px;
+    color: #2f2f2f;
+}
+
+.texto02 {
+    position: relative;
+    width: 600px;
+    top: -130px;
+    display: inline-block;
+}
+
+.texto4 {
+    position: relative;
+    font-size: 30px;
+    width: 600px;
+}
+
+.texto4:hover {
+    background-color: #ffca01;
+}
+
+.texto4 p {
+    position: relative;
+    font-size: 20px;
+    top: -12px;
+    color: #2f2f2f;
+}
+
+.texto5 {
+    position: relative;
+    top: 20px;
+    font-size: 30px;
+    width: 600px;
+}
+
+.texto5:hover {
+    background-color: #ffca01;
+}
+
+.texto5 p {
+    position: relative;
+    font-size: 20px;
+    top: -12px;
+    color: #2f2f2f;
+}
+
+.texto6 {
+    position: relative;
+    font-size: 30px;
+    width: 600px;
+}
+
+.texto6:hover {
+    background-color: #ffca01;
+}
+
+.texto6 p {
+    position: relative;
+    font-size: 20px;
+    top: -12px;
+    color: #2f2f2f;
+}
+
+.rasm__oxiri {
+    position: relative;
+    width: 0px;
+    height: 600px;
+}
+
+.rasm__oxiri img {
+    position: relative;
+    width: 900px;
+    height: 600px;
+    top: -1564px;
+    left: 1000px;
+    opacity: 0.7;
+}
+
+.rasm__oxiri img:hover {
+    opacity: 1;
+}
+
+.rasmo__text {
+    position: relative;
+    top: -2090px;
+    left: 400px;
+    font-size: 27px;
+    width: 600px;
+    margin: 0px;
+}
+
+.rasmo__text h1:hover {
+    font-size: 60px;
+}
+
+.rasmo__text p {
+    position: relative;
+    font-size: 20px;
+    top: -20px;
+    color: rgba(0, 0, 0, 0.404);
+}
+
+.rasmo__text p:hover {
+    font-size: 25px;
+}
+
+.rasmo__text a {
+    color: rgba(0, 0, 0, 0.404);
+}
+
+.rasmo__text h5 {
+    font-family: 'Open Sans',sans-serif;
+    color: rgba(0, 0, 0, 0.712);
+}
+
+.rasmo__text h5:hover {
+    font-size: 25px;
+}
+
+.iphone {
+    width: 600px;
+}
+
+.iphone img {
+    width: 30%;
+    margin-top: 0px;
+}
+
+.iphone:hover {
+    width: 700px;
+}
+
+.android {
+    width: 200px;
+}
+
+.android img {
+    position: absolute;
+    width: 30%;
+    margin-left: 230px;
+    margin-top: -62px;
+}
+
+.android:hover {
+    width: 700px;
+}
+
+.oxirii {
+    position: relative;
+    width: 101%;
+    height: 500px;
+    border: 1px solid #292d33;
+    top: -1950px;
+    background-color: #292d33;
+}
+
+.qutii1 {
+    position: relative;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    width: 400px;
+    left: 350px;
+}
+
+.qutii1 p {
+    font-size: 20px;
+}
+
+.input {
+    width: 250px;
+    height: 60px;
+    margin-left: 35px;
+    font-size: 18px;
+}
+
+.buttton {
+    width: 260px;
+    height: 60px;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: #ffca01;
+    border: 1px solid #ffca01;
+}
+
+.buttton:hover {
+    background-color: white;
+}
+
+.buttton a {
+    text-decoration: none;
+    color: black;
+}
+
+.qutii2 {
+    position: relative;
+    text-align: center;
+    top: -300px;
+    color: white;
+    width: 400px;
+    left: 750px;
+}
+
+.qutii2__rasm img {
+    width: 70px;
+    display: inline-block;
+}
+
+.qutii2 button {
+    width: 260px;
+    height: 60px;
+    font-size: 18px;
+    background-color: #ffca01;
+    border: 1px solid #ffca01;
+}
+
+.button2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.button2:hover {
+    opacity: 0.9;
+}
+
+.qutii2 p {
+    font-size: 20px;
+}
+
+.qutii3 {
+    position: relative;
+    width: 400px;
+    top: -600px;
+    left: 1200px;
+    text-align: center;
+    color: white;
+}
+
+.qutii3__rasm img {
+    width: 70px;
+}
+
+.qutii3 p {
+    font-size: 20px;
+}
+
+.qutii3 button {
+    width: 260px;
+    height: 60px;
+    margin-top: 20px;
+    font-size: 18px;
+    background-color: #ffca01;
+    border: 1px solid #ffca01;
+}
+
+.button3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.button3:hover {
+    opacity: 0.9;
+}
+
+
+
+
+
+
+
+
